@@ -1,2 +1,2 @@
-# calc
-Web-Calculation 
+permalink
+/index.html
