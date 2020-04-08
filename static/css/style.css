@@ -1,0 +1,126 @@
+.head h1
+{
+    font-size: 275%;
+}
+#frame
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    width: max-content; 
+    margin-top: 150px;
+    border: 1px solid black;
+    border-radius: 5%;
+    display: block;
+}
+#freme *
+{
+    text-align: center;
+}
+.calc-wrapper
+{
+    margin-top: 50px;
+}
+
+.calc-wrapper .result-area *
+{
+    margin-top: 5px;
+    background: -moz-linear-gradient(black, #EBFFFF);
+    background: -webkit-gradient (linear, 0 0, 0 100%, from(chartreuse), to(#EBFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='chartreuse', endColorstr='#EBFFFF');
+    padding: 3px 7px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+
+.calc-wrapper, .mode-button
+{
+    text-align: center;
+}
+.digits
+{
+    margin-right: 10px;
+}
+
+.calc-wrapper .all-operators
+{
+    margin-top: -20px;
+    display: inline-block;
+    padding: 3px 7px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    
+}
+
+.calc-wrapper .digits-buttons {
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.calc-wrapper .digits-buttons .digit-button {
+    width: 30px;
+    height: 30px;
+}
+
+
+.calc-wrapper .operator-buttons .operator-button {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.calc-wrapper .digits, .calc-wrapper .operator-buttons {
+    display: inline-block;
+}
+
+.calc-wrapper .digits, .calc-wrapper .operator-buttons * {
+    margin-top: 5px;
+    background: -moz-linear-gradient(chartreuse, #EBFFFF);
+    background: -webkit-gradient (linear, 0 0, 0 100%, from(chartreuse), to(#EBFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='chartreuse', endColorstr='#EBFFFF');
+    padding: 3px 7px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+
+.calc-wrapper .digits, .digits-buttons .digit-button {
+    margin-top: 5px;
+    background: -moz-linear-gradient(black, #EBFFFF);
+    background: -webkit-gradient (linear, 0 0, 0 100%, from(chartreuse), to(#EBFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='chartreuse', endColorstr='#EBFFFF');
+    padding: 3px 7px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+
+.mode-button input
+{
+    margin-top: 5px;
+    width: 210px;
+    margin-top: 5px;
+    background: -moz-linear-gradient(black, #EBFFFF);
+    background: -webkit-gradient (linear, 0 0, 0 100%, from(chartreuse), to(#EBFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='chartreuse', endColorstr='#EBFFFF');
+    padding: 3px 7px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
